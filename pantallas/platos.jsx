@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, FlatList, Button, Alert } from 'react-native';
-import ComponentePlato from '../components/ComponentePlato';
+import ComponentePlato from '../components/busquedaplato';
 
 const Platos = ({ navigation }) => {
   const [menu, setMenu] = useState([]);
